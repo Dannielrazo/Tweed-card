@@ -83,6 +83,10 @@
   .description-content p{
       font: var(--body1-regular);
   }
+  .description-content{
+    border: 1px solid red;
+    max-inline-size:100%;
+  }
   .description-link{
     max-inline-size: 35.75rem;
     max-block-size: 9rem;
