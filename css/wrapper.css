@@ -1,0 +1,17 @@
+.wrapper{
+  border:1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  block-size: 100vh;
+  max-inline-size: 1024px;
+}
+@media screen and (min-width: 768px){
+  .card{
+      padding: 1.5rem ;
+      max-inline-size: 43.75rem ;
+      border: 1px solid var(--grey);
+  }
+
+}

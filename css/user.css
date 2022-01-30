@@ -1,0 +1,12 @@
+.user img{
+  padding: 10px 15px;
+  max-inline-size: 3rem;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+  .user img{
+      max-inline-size: 4rem;
+  }
+}

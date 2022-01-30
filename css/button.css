@@ -1,0 +1,45 @@
+.button-container{
+  display: flex;
+  align-items: center;
+  gap: .0;
+}
+
+.button{
+  background: transparent;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+  margin: 0;
+  inline-size: 3rem;
+  block-size: 3rem;
+}
+
+.button:active{
+  transform: scale(.9);
+}
+
+.button.heart{
+  background: url(../images/Heard-1.svg);
+}
+
+
+.button.heart2{
+  animation: like steps(28) 0.5s forwards;
+}
+
+.button-container p{
+  margin: 0;
+  font: var(--body1-regular);
+  color: var(--grey);
+}
+
+
+@keyframes like {
+  0% {
+      background: url(../images/Heard-2.svg);
+  }
+
+  100% {
+      background: url(../images/Heard-3.svg);
+  }
+}
